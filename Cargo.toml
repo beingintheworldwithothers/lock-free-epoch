@@ -1,0 +1,9 @@
+[package]
+name = "lock-free"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+crossbeam-epoch = "0.9.21"
+crossbeam-utils = "0.8.23"
+loom = "0.7.2"
